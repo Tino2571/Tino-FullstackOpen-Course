@@ -1,0 +1,86 @@
+html {
+  font-size: 10px;
+  font-family: "Anton SC", sans-serif;
+  background-color: #ff0000;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #ff0000;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 1em;
+  background-color: #eeeeee;
+  padding: 200px 200px 200px 200px;
+  border: 5px solid black;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+
+form {
+  display: inline-block;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  min-width: 90px;
+  text-align: right;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #ff0000;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+#Formulario_1  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 1em; /* same size as the label elements */
+}
